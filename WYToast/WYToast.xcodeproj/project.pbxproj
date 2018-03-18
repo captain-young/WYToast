@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FD195A0204832000002BCC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1959F204832000002BCC5 /* AppDelegate.m */; };
+		6FD195A3204832000002BCC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD195A2204832000002BCC5 /* ViewController.m */; };
+		6FD195A6204832000002BCC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD195A4204832000002BCC5 /* Main.storyboard */; };
+		6FD195A8204832000002BCC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD195A7204832000002BCC5 /* Assets.xcassets */; };
+		6FD195AB204832000002BCC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD195A9204832000002BCC5 /* LaunchScreen.storyboard */; };
+		6FD195AE204832000002BCC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD195AD204832000002BCC5 /* main.m */; };
+		6FD195B8204832000002BCC5 /* WYToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD195B7204832000002BCC5 /* WYToastTests.m */; };
+		6FD195C3204832000002BCC5 /* WYToastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD195C2204832000002BCC5 /* WYToastUITests.m */; };
+		6FD195D3204832310002BCC5 /* WYToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD195D2204832310002BCC5 /* WYToast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FD195B4204832000002BCC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD19593204832000002BCC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD1959A204832000002BCC5;
+			remoteInfo = WYToast;
+		};
+		6FD195BF204832000002BCC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD19593204832000002BCC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD1959A204832000002BCC5;
+			remoteInfo = WYToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FD1959B204832000002BCC5 /* WYToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD1959E204832000002BCC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FD1959F204832000002BCC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FD195A1204832000002BCC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FD195A2204832000002BCC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FD195A5204832000002BCC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FD195A7204832000002BCC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FD195AA204832000002BCC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FD195AC204832000002BCC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD195AD204832000002BCC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FD195B3204832000002BCC5 /* WYToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD195B7204832000002BCC5 /* WYToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYToastTests.m; sourceTree = "<group>"; };
+		6FD195B9204832000002BCC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD195BE204832000002BCC5 /* WYToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD195C2204832000002BCC5 /* WYToastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYToastUITests.m; sourceTree = "<group>"; };
+		6FD195C4204832000002BCC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD195D1204832310002BCC5 /* WYToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYToast.h; sourceTree = "<group>"; };
+		6FD195D2204832310002BCC5 /* WYToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYToast.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FD19598204832000002BCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD195B0204832000002BCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD195BB204832000002BCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FD19592204832000002BCC5 = {
+			isa = PBXGroup;
+			children = (
+				6FD1959D204832000002BCC5 /* WYToast */,
+				6FD195B6204832000002BCC5 /* WYToastTests */,
+				6FD195C1204832000002BCC5 /* WYToastUITests */,
+				6FD1959C204832000002BCC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FD1959C204832000002BCC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FD1959B204832000002BCC5 /* WYToast.app */,
+				6FD195B3204832000002BCC5 /* WYToastTests.xctest */,
+				6FD195BE204832000002BCC5 /* WYToastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FD1959D204832000002BCC5 /* WYToast */ = {
+			isa = PBXGroup;
+			children = (
+				6FD195D02048321A0002BCC5 /* WYToast */,
+				6FD1959E204832000002BCC5 /* AppDelegate.h */,
+				6FD1959F204832000002BCC5 /* AppDelegate.m */,
+				6FD195A1204832000002BCC5 /* ViewController.h */,
+				6FD195A2204832000002BCC5 /* ViewController.m */,
+				6FD195A4204832000002BCC5 /* Main.storyboard */,
+				6FD195A7204832000002BCC5 /* Assets.xcassets */,
+				6FD195A9204832000002BCC5 /* LaunchScreen.storyboard */,
+				6FD195AC204832000002BCC5 /* Info.plist */,
+				6FD195AD204832000002BCC5 /* main.m */,
+			);
+			path = WYToast;
+			sourceTree = "<group>";
+		};
+		6FD195B6204832000002BCC5 /* WYToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FD195B7204832000002BCC5 /* WYToastTests.m */,
+				6FD195B9204832000002BCC5 /* Info.plist */,
+			);
+			path = WYToastTests;
+			sourceTree = "<group>";
+		};
+		6FD195C1204832000002BCC5 /* WYToastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FD195C2204832000002BCC5 /* WYToastUITests.m */,
+				6FD195C4204832000002BCC5 /* Info.plist */,
+			);
+			path = WYToastUITests;
+			sourceTree = "<group>";
+		};
+		6FD195D02048321A0002BCC5 /* WYToast */ = {
+			isa = PBXGroup;
+			children = (
+				6FD195D1204832310002BCC5 /* WYToast.h */,
+				6FD195D2204832310002BCC5 /* WYToast.m */,
+			);
+			path = WYToast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FD1959A204832000002BCC5 /* WYToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD195C7204832000002BCC5 /* Build configuration list for PBXNativeTarget "WYToast" */;
+			buildPhases = (
+				6FD19597204832000002BCC5 /* Sources */,
+				6FD19598204832000002BCC5 /* Frameworks */,
+				6FD19599204832000002BCC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYToast;
+			productName = WYToast;
+			productReference = 6FD1959B204832000002BCC5 /* WYToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FD195B2204832000002BCC5 /* WYToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD195CA204832000002BCC5 /* Build configuration list for PBXNativeTarget "WYToastTests" */;
+			buildPhases = (
+				6FD195AF204832000002BCC5 /* Sources */,
+				6FD195B0204832000002BCC5 /* Frameworks */,
+				6FD195B1204832000002BCC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD195B5204832000002BCC5 /* PBXTargetDependency */,
+			);
+			name = WYToastTests;
+			productName = WYToastTests;
+			productReference = 6FD195B3204832000002BCC5 /* WYToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FD195BD204832000002BCC5 /* WYToastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD195CD204832000002BCC5 /* Build configuration list for PBXNativeTarget "WYToastUITests" */;
+			buildPhases = (
+				6FD195BA204832000002BCC5 /* Sources */,
+				6FD195BB204832000002BCC5 /* Frameworks */,
+				6FD195BC204832000002BCC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD195C0204832000002BCC5 /* PBXTargetDependency */,
+			);
+			name = WYToastUITests;
+			productName = WYToastUITests;
+			productReference = 6FD195BE204832000002BCC5 /* WYToastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FD19593204832000002BCC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "杨新威";
+				TargetAttributes = {
+					6FD1959A204832000002BCC5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6FD195B2204832000002BCC5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FD1959A204832000002BCC5;
+					};
+					6FD195BD204832000002BCC5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FD1959A204832000002BCC5;
+					};
+				};
+			};
+			buildConfigurationList = 6FD19596204832000002BCC5 /* Build configuration list for PBXProject "WYToast" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FD19592204832000002BCC5;
+			productRefGroup = 6FD1959C204832000002BCC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FD1959A204832000002BCC5 /* WYToast */,
+				6FD195B2204832000002BCC5 /* WYToastTests */,
+				6FD195BD204832000002BCC5 /* WYToastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FD19599204832000002BCC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD195AB204832000002BCC5 /* LaunchScreen.storyboard in Resources */,
+				6FD195A8204832000002BCC5 /* Assets.xcassets in Resources */,
+				6FD195A6204832000002BCC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD195B1204832000002BCC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD195BC204832000002BCC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FD19597204832000002BCC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD195A3204832000002BCC5 /* ViewController.m in Sources */,
+				6FD195AE204832000002BCC5 /* main.m in Sources */,
+				6FD195A0204832000002BCC5 /* AppDelegate.m in Sources */,
+				6FD195D3204832310002BCC5 /* WYToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD195AF204832000002BCC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD195B8204832000002BCC5 /* WYToastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD195BA204832000002BCC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD195C3204832000002BCC5 /* WYToastUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FD195B5204832000002BCC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD1959A204832000002BCC5 /* WYToast */;
+			targetProxy = 6FD195B4204832000002BCC5 /* PBXContainerItemProxy */;
+		};
+		6FD195C0204832000002BCC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD1959A204832000002BCC5 /* WYToast */;
+			targetProxy = 6FD195BF204832000002BCC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FD195A4204832000002BCC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FD195A5204832000002BCC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FD195A9204832000002BCC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FD195AA204832000002BCC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FD195C5204832000002BCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FD195C6204832000002BCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FD195C8204832000002BCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JSRUKKTRM;
+				INFOPLIST_FILE = WYToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whiteyoung.WYToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FD195C9204832000002BCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JSRUKKTRM;
+				INFOPLIST_FILE = WYToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whiteyoung.WYToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FD195CB204832000002BCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JSRUKKTRM;
+				INFOPLIST_FILE = WYToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whiteyoung.WYToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYToast.app/WYToast";
+			};
+			name = Debug;
+		};
+		6FD195CC204832000002BCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JSRUKKTRM;
+				INFOPLIST_FILE = WYToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whiteyoung.WYToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYToast.app/WYToast";
+			};
+			name = Release;
+		};
+		6FD195CE204832000002BCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JSRUKKTRM;
+				INFOPLIST_FILE = WYToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whiteyoung.WYToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYToast;
+			};
+			name = Debug;
+		};
+		6FD195CF204832000002BCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JSRUKKTRM;
+				INFOPLIST_FILE = WYToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whiteyoung.WYToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYToast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FD19596204832000002BCC5 /* Build configuration list for PBXProject "WYToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD195C5204832000002BCC5 /* Debug */,
+				6FD195C6204832000002BCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD195C7204832000002BCC5 /* Build configuration list for PBXNativeTarget "WYToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD195C8204832000002BCC5 /* Debug */,
+				6FD195C9204832000002BCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD195CA204832000002BCC5 /* Build configuration list for PBXNativeTarget "WYToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD195CB204832000002BCC5 /* Debug */,
+				6FD195CC204832000002BCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD195CD204832000002BCC5 /* Build configuration list for PBXNativeTarget "WYToastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD195CE204832000002BCC5 /* Debug */,
+				6FD195CF204832000002BCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FD19593204832000002BCC5 /* Project object */;
+}
